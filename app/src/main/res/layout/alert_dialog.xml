@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alertd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDialog">
+
+    <LinearLayout
+        android:id="@+id/alertdcuadro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="12dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="20dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/titol"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="Nueva Tarea:"
+            android:textColor="@color/colorDialog2"
+            android:textSize="28dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tareaview"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:padding="12dp"
+            android:text="Tarea:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/tarea"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/fechaview"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:padding="12dp"
+            android:text="Fecha:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/fecha"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#FFFFFF">
+
+        </EditText>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
